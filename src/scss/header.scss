@@ -1,0 +1,46 @@
+.header{
+    height: 100vh;
+    background: url('../assets/header/header.png'), no-repeat;
+    background-size: cover;
+    &-icons{
+    display: flex;
+    column-gap: 850px;
+}
+.web{
+    padding: 100px 0;
+    text-align: center;
+    &-title{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 74px;
+        line-height: 90px;
+        text-transform: uppercase;
+        color: #212733;
+    }
+    &-subtitle{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    &-btn{
+        display: flex;
+        position: relative;
+        left: 485px;
+        top: 40px;
+        padding: 15px 84px 15px 30px;
+        border: 1px solid #000000;
+        background-color: transparent;
+    }
+    &-btn::after{
+        content: '>';
+        position: absolute;
+        right: 25px;
+        top: 12px;
+        font-size: 20px;
+    }
+}
+}
